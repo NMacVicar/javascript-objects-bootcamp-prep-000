@@ -1,11 +1,11 @@
 var playlist = {Jasmine Rodgers: 'Two Years'}
 
-function updatePlaylist(playlist, artist, songTitle){
-  playlist.artist = 'songTitle'
-  return playlist
+function updatePlaylist(list, artist, songTitle){
+  list.artist = 'songTitle'
+  return list
 }
 
-function removeFromPlaylist(playlist, artist){
-  delete playlist.artist
-  return playlist
+function removeFromPlaylist(list, artist){
+  delete list.artist
+  return list
 }
